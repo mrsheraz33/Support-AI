@@ -87,7 +87,7 @@ onClick={copyCode}>
 <div className="relative h-64 sm:h-72 p-6 text-zinc-600 text-sm">
   Your website goes here
 
-  <div className="absolute bottom-16 right-6 min-w-auto md:w-60 bg-white rounded-xl 
+  <div className="absolute bottom-16 right-6 w-40 md:w-60 bg-white rounded-xl 
   shadow-xl border border-zinc-200 overflow-hidden text-xs">
     <div className="bg-zinc-950 text-white p-2.5 flex items-center justify-between">
       <div className="flex items-center gap-1.5">
