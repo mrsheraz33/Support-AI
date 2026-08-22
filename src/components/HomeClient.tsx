@@ -14,6 +14,7 @@ function HomeClient({email,picture}:{email:string,picture:string}) {
 
  const [open, setOpen]= useState(false)
  const popupRef = useRef<HTMLDivElement>(null)
+ const [loading, setLoading] = useState(false)
 
  useEffect(()=>{
   const handler =(e:MouseEvent)=>{
@@ -29,6 +30,7 @@ return ()=> document.removeEventListener("mousedown", handler)
 
   const router = useRouter()
   const handelLogin =()=>{
+    setLoading(true)
     window.location.href = "/api/auth/login"
   }
    const firstLetter = email?.charAt(0)?.toUpperCase() || ""
@@ -113,10 +115,11 @@ onClick={handelLogOut}>Logout</button>
 </AnimatePresence>
         </div> : 
         <button
+        disabled={loading}
       onClick={handelLogin}
       className="px-5 py-2 rounded-full bg-black text-white text-sm font-medium hover:bg-zinc-800 transition
       disabled:opacity-60 flex items-center gap-2">
-        Login
+      {loading ? "loading..." : "  Login"}
       </button>
         }
 
