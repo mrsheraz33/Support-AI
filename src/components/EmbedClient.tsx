@@ -87,7 +87,7 @@ onClick={copyCode}>
 <div className="relative h-64 sm:h-72 p-6 text-zinc-600 text-sm">
   Your website goes here
 
-  <div className="absolute bottom-16 right-6 w-60 bg-white rounded-xl 
+  <div className="absolute bottom-16 right-6 min-w-auto md:w-60 bg-white rounded-xl 
   shadow-xl border border-zinc-200 overflow-hidden text-xs">
     <div className="bg-zinc-950 text-white p-2.5 flex items-center justify-between">
       <div className="flex items-center gap-1.5">
@@ -110,8 +110,11 @@ onClick={copyCode}>
     </div>
   </div>
 
- <div className="absolute bottom-4 right-6 w-10 h-10 rounded-full bg-zinc-950 text-white flex items-center justify-center shadow-lg cursor-pointer">
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+ <div className="absolute bottom-4 right-6 w-10 h-10 rounded-full bg-zinc-950
+  text-white flex items-center justify-center shadow-lg cursor-pointer">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+   viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" 
+   strokeLinecap="round" strokeLinejoin="round">
     <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
   </svg>
 </div>
