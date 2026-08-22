@@ -32,7 +32,7 @@ SupportAI is a production-ready, multi-tenant AI-powered customer support platfo
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/support-ai.git](https://github.com/your-username/support-ai.git)
+git clone [https://github.com/mrsheraz33/Support-AI.git](https://github.com/mrsheraz33/Support-AI.git)
 cd support-ai
 ```
 
@@ -77,10 +77,10 @@ Open `http://localhost:3000` in your browser to view the application.
 Businesses can integrate the chatbot into their website by pasting this single snippet into their website's `<head>` or `<body>`:
 
 ```html
-<!-- SupportAI Chatbot Script -->
+
 <script 
-  src="[https://support-ai-nine-kappa.vercel.app/script.js](https://support-ai-nine-kappa.vercel.app/script.js)" 
-  data-org-id="YOUR_ORGANIZATION_ID">
+  src="[https://support-ai-nine-kappa.vercel.app/chatBot.js](https://support-ai-nine-kappa.vercel.app/chatBot.js)" 
+  data-owner-id="YOUR_ORGANIZATION_ID">
 </script>
 ```
 
