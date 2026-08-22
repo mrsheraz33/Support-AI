@@ -8,6 +8,7 @@ import Footer from "./Footer"
 import Working from "./Working"
 import SocialProof from "./SocialProof"
 import axios from "axios"
+import FAQSection from "./FAQSection"
 
 function HomeClient({email,picture}:{email:string,picture:string}) {
 
@@ -122,7 +123,7 @@ onClick={handelLogOut}>Logout</button>
     </div>
 </motion.div>
 
-<section className="pt-36 pb-28 px-6">
+<section className="pt-36 pb-28 px-6" id="home">
 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
 <motion.div
 initial={{opacity:0, y:40}}
@@ -184,7 +185,7 @@ text-white flex items-center justify-center shadow-xl">
 <SocialProof/>
 
 <section
-id="feature"
+id="features"
  className="bg-zinc-50 py-15 px-6 border-t border-zinc-200">
 <div className="max-w-6xl mx-auto">
 <motion.h2
@@ -192,7 +193,7 @@ initial={{opacity:0, y:20}}
 whileInView={{opacity:1, y:0}}
 viewport={{once:false}}
 transition={{duration:0.5}}
-className="text-3xl font-semibold text-center">
+className="text-3xl text-center font-bold">
 Why Businesses Choose Support <span className="text-zinc-400">AI</span>
 </motion.h2>
 
@@ -213,10 +214,15 @@ Why Businesses Choose Support <span className="text-zinc-400">AI</span>
 </div>
 </section>
 
-<Working/>
+<section id="how-it-works"> 
+  <Working/>
+</section>
+
+<section id="faq">
+  <FAQSection/>
+</section>
 
 <Footer/>
-
     </div>
   )
 }

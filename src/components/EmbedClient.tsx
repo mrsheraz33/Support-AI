@@ -55,10 +55,10 @@ className="w-full max-w-4xl bg-white rounded-2xl shadow-xl p-10">
 
 <div className="relative bg-zinc-900 text-zinc-100 rounded-xl 
 p-5 text-sm font-mono mb-10 mt-1.5">
-<pre className="overflow-x-auto">{embedCode}</pre>
+<pre className="overflow-x-auto mt-3 mb-3">{embedCode}</pre>
 
-<button className="absolute top-3 right-3 bg-white text-zinc-900 text-xs
-font-medium px-3 py-1.5 rounded-lg hover:bg-zinc-200 transition"
+<button className="absolute top-3 right-3  bg-white text-zinc-900 text-xs 
+font-medium px-3 py-1 rounded-lg hover:bg-zinc-200 transition"
 onClick={copyCode}>
     {copied ? "copied ✔" : "copy"}
 </button>

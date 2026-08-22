@@ -13,14 +13,12 @@ export default function Footer() {
             Next-Gen AI Customer Support for Modern Websites.
           </p>
         </div>
-
-        <div className="flex flex-wrap items-center gap-6 text-sm text-zinc-600 font-medium">
-          <a href="#feature" className="hover:text-zinc-900 transition-colors">Features</a>
-          <a href="#docs" className="hover:text-zinc-900 transition-colors">Docs</a>
-          <a href="#privacy" className="hover:text-zinc-900 transition-colors">Privacy</a>
-          <a href="#terms" className="hover:text-zinc-900 transition-colors">Terms</a>
-        </div>
-
+<div className="flex flex-wrap items-center gap-6 text-sm text-zinc-600 font-medium">
+  <a href="#home" className="hover:text-zinc-900 transition-colors">Home</a>
+  <a href="#features" className="hover:text-zinc-900 transition-colors">Features</a>
+  <a href="#how-it-works" className="hover:text-zinc-900 transition-colors">How It Works</a>
+  <a href="#faq" className="hover:text-zinc-900 transition-colors">FAQ</a>
+</div>
       <div className="text-xs text-zinc-400">
           © {new Date().getFullYear()} SupportAI. All rights reserved.
         </div>
