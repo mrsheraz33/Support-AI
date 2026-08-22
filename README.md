@@ -1,6 +1,6 @@
 # SupportAI - Multi-Tenant AI Customer Support SaaS
 
-SupportAI is a production-ready, multi-tenant AI-powered customer support platform. It enables SaaS founders, businesses, and agencies to easily generate and embed a lightweight, customizable AI chatbot widget on any external website with a single script tag—similar to Intercom, Crisp, or Tidio.
+SupportAI is a production-ready, multi-tenant AI-powered customer support platform. It enables SaaS founders, businesses, and agencies to easily generate and embed a lightweight, customizable AI chatbot widget on any external website with a single script tag similar to Intercom, Crisp, or Tidio.
 
 ---
 
@@ -33,7 +33,7 @@ SupportAI is a production-ready, multi-tenant AI-powered customer support platfo
 
 ```bash
 git clone [https://github.com/mrsheraz33/Support-AI.git](https://github.com/mrsheraz33/Support-AI.git)
-cd support-ai
+
 ```
 
 ### 2. Install Dependencies
@@ -79,7 +79,7 @@ Businesses can integrate the chatbot into their website by pasting this single s
 ```html
 
 <script 
-  src="[https://support-ai-nine-kappa.vercel.app/chatBot.js](https://support-ai-nine-kappa.vercel.app/chatBot.js)" 
+  src="https://support-ai-nine-kappa.vercel.app/chatBot.js" 
   data-owner-id="YOUR_ORGANIZATION_ID">
 </script>
 ```
