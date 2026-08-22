@@ -8,7 +8,7 @@
     return
   }
 
-  const baseUrl = scriptTag.src ? new URL(scriptTag.src).origin : "http://localhost:3000"
+  const baseUrl = scriptTag.src ? new URL(scriptTag.src).origin : "https://support-ai-nine-kappa.vercel.app"
   const API_URL = `${baseUrl}/api/chat`
 
   let messages = [
