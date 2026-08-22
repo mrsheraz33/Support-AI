@@ -85,3 +85,7 @@ Businesses can integrate the chatbot into their website by pasting this single s
 ```
 
 ---
+
+## Author
+
+Muhammad Sheraz | Software Engineer
