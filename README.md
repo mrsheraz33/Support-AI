@@ -32,7 +32,7 @@ SupportAI is a production-ready, multi-tenant AI-powered customer support platfo
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/mrsheraz33/Support-AI.git](https://github.com/mrsheraz33/Support-AI.git)
+git clone https://github.com/mrsheraz33/Support-AI.git
 
 ```
 
