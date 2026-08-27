@@ -2,7 +2,7 @@ import React from 'react';
 
 const LOGOS = [
   { name: "Tidio", src: "/logos/tidio.svg" },
-  { name: "HubSpot", src: "/logos/hubspot.svg" },
+  { name: "HubSpot", src: "/logos/hubSpot.svg" },
   { name: "Freshworks", src: "/logos/freshworks.svg" },
   { name: "Gorgias", src: "/logos/gorgias.svg" },
   { name: "Zendesk", src: "/logos/zendesk.svg" },
